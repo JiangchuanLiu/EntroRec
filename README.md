@@ -12,7 +12,7 @@ The training instructions can be seen in `EntroRec.sh` and `train.sh`, while the
 ## Quickstart
 - Create a virtual Python environment.
 
-`conda create -n EntroRec`
+``conda create -n EntroRec``
 - Install required packages.
   
 `pip install -r requirements.txt`
