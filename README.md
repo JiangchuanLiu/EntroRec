@@ -1,6 +1,6 @@
 # README
 
-# The implementation of ""EntroRec: Mitigating the Matthew Effect via  Entropy Enhancement in Generative Recommendation" .
+# The implementation of "EntroRec: Mitigating the Matthew Effect via  Entropy Enhancement in Generative Recommendation" .
 
 ## File Description
 - `sft.py`: the SFT code
@@ -11,9 +11,10 @@ The training instructions can be seen in `EntroRec.sh` and `train.sh`, while the
 
 ## Quickstart
 - Create a virtual Python environment.
-```bash
+bash
 conda create -n EntroRec
 - Install required packages.
+bash
 pip install -r requirements.txt
 - Execute the EntroRec the training bash.
 bash EntroRec.sh
