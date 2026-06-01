@@ -14,7 +14,6 @@ The training instructions can be seen in `EntroRec.sh` and `train.sh`, while the
 ```bash
 conda create -n EntroRec
 - Install required packages.
-```bash
 pip install -r requirements.txt
 - Execute the EntroRec the training bash.
 bash EntroRec.sh
