@@ -144,10 +144,8 @@ def train(
         # print(f"targets: {targets}")
         for i, completion in enumerate(completions):
             if completion.strip("\n")[1:-1]  not in item_name:
-                print("==============================")
                 print(prompts[i])
                 print(f"Invalid item: {[completion]}")
-                print("==============================")
             # print(f"Completion: {completion}, Target: {targets[i]}")
             if completion.strip("\n")[1:-1] == targets[i].strip("\n")[1:-1]:
                 rewards.append(1.0) 
